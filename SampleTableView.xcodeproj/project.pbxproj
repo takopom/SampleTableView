@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		490848E31E94B150002A69F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490848E21E94B150002A69F2 /* AppDelegate.swift */; };
-		490848E51E94B150002A69F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490848E41E94B150002A69F2 /* ViewController.swift */; };
 		490848E71E94B150002A69F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 490848E61E94B150002A69F2 /* Assets.xcassets */; };
 		490848EA1E94B150002A69F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490848E81E94B150002A69F2 /* Main.storyboard */; };
 		490848F21E94B2D5002A69F2 /* SampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490848F11E94B2D5002A69F2 /* SampleModel.swift */; };
+		4957B4D11EB16E5C002EDFCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957B4D01EB16E5C002EDFCF /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		490848DF1E94B150002A69F2 /* SampleTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		490848E21E94B150002A69F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		490848E41E94B150002A69F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		490848E61E94B150002A69F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		490848E91E94B150002A69F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		490848EB1E94B150002A69F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		490848F11E94B2D5002A69F2 /* SampleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SampleModel.swift; path = Model/SampleModel.swift; sourceTree = "<group>"; };
+		4957B4D01EB16E5C002EDFCF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +54,12 @@
 		490848E11E94B150002A69F2 /* SampleTableView */ = {
 			isa = PBXGroup;
 			children = (
-				490848F31E94B2DA002A69F2 /* Model */,
+				490848EB1E94B150002A69F2 /* Info.plist */,
 				490848E21E94B150002A69F2 /* AppDelegate.swift */,
-				490848E41E94B150002A69F2 /* ViewController.swift */,
 				490848E61E94B150002A69F2 /* Assets.xcassets */,
 				490848E81E94B150002A69F2 /* Main.storyboard */,
-				490848EB1E94B150002A69F2 /* Info.plist */,
+				490848F31E94B2DA002A69F2 /* Model */,
+				4957B4CF1EB16E5C002EDFCF /* ViewController */,
 			);
 			path = SampleTableView;
 			sourceTree = "<group>";
@@ -70,6 +70,14 @@
 				490848F11E94B2D5002A69F2 /* SampleModel.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		4957B4CF1EB16E5C002EDFCF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4957B4D01EB16E5C002EDFCF /* ViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,7 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				490848E51E94B150002A69F2 /* ViewController.swift in Sources */,
+				4957B4D11EB16E5C002EDFCF /* ViewController.swift in Sources */,
 				490848F21E94B2D5002A69F2 /* SampleModel.swift in Sources */,
 				490848E31E94B150002A69F2 /* AppDelegate.swift in Sources */,
 			);
@@ -298,6 +306,7 @@
 				490848F01E94B150002A69F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
